@@ -1,0 +1,25 @@
+{
+  "name": "test-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w --display-error-details --colors",
+    "dev":"webpack-dev-server --content-base build --colors --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhangzhenguo3352/test-webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhangzhenguo3352/test-webapp/issues"
+  },
+  "homepage": "https://github.com/Zhangzhenguo3352/test-webapp#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
